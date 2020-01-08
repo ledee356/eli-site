@@ -50,8 +50,14 @@ table {
 }
 
 
-body{
-  /* padding: 10px; */
+html, header{
+  height: 100%
+}
+
+.contain{
+  background-image: url('../../assets/img/mania.png');
+  width: 100%;
+  height: 100%;
 }
 
 @font-face {
@@ -97,12 +103,14 @@ body{
 
 /* HOME PAGE */
 
-
-.home-body{
-  background-color: #F5F4F4;
-  margin: 0;
+.parrallax{
+  min-width: 100%;
+  position: fixed;
+  top:0;
+  z-index: -999;
 }
 
+}
 .home-body2{
   background-color: #383838;
 }
@@ -215,7 +223,7 @@ img{
 }
 
 .home-footer1{
-  padding-top: 10%;
+  margin-top: 1%;
   display: flex;
   flex-wrap: wrap;
 }
@@ -417,6 +425,19 @@ img{
   transform: rotate(-90deg);
   border-top: 4px solid;
   z-index: 4;
+}
+
+.home-work3{
+  width: 180px;
+  text-align: center;
+  padding-top: 20px;
+  left: 0px;
+  top: 300px;
+  position: fixed;
+  transform: rotate(-90deg);
+  border-top: 4px solid;
+  z-index: 4;
+  color: #F5F4F4;
 }
 
 .work-footer{
@@ -633,15 +654,16 @@ img{
   justify-content: center;
   width: 100%;
   height: 100%;
-  /* padding-top: 20%; */
+  padding-top: 20%;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
 }
 
-.home-body3{
+#a{
   background-color: #383838;
   margin: 0;
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
-  position: absolute;
 }
 
 .home-headings2{
