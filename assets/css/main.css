@@ -441,7 +441,7 @@ a:hover{
   font-family: "Raleway";
   font-size: 1.5vw;
   color: #F9F8F8;
-  line-height: 120%;
+  line-height: 130%;
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 5%;
@@ -496,9 +496,7 @@ a:hover{
 }
 
 .anxiety{
-  margin-top: 200px;
-  margin-left: 120px;
-  margin-right: 120px;
+  margin-top: 18%;
   z-index: 1;
 }
 
@@ -507,10 +505,8 @@ a:hover{
 }
 
 .depression{
-  margin-top: 200px;
-  margin-left: 120px;
-  margin-right: 120px;
-  margin-bottom: 120px;
+  margin-top: 8%;
+  margin-bottom: 3%;
   z-index: 1;
 }
 
@@ -522,11 +518,9 @@ a:hover{
   display: flex;
   flex-wrap: wrap;
   position: absolute;
-  top: 0;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  top: 0%;
+  left: 0%;
+  right: 0%;
   z-index: 1;
   justify-content: center;
   margin-left: 8%;
@@ -558,67 +552,66 @@ a:hover{
 /* FOR MOBILE */
 
 @media (max-width: 414px) {
-  .home-header{
-    font-size: 35px;
-  }
-
-  .home-subhead{
-    font-size: 20px;
-  }
-
-
-  .home-headings{
-    font-size: 15px;
-  }
-
-  .home-work{
-    width: 80px;
-    border-top: 3px solid;
-  }
 
   .home-work3{
-    width: 70px;
     border-top: 3px solid;
     color: #F9F8F8;
+  }
+
+  .indi-header{
+    font-size: 9vw;
   }
 
   .home-about{
     width: 80px;
   }
 
+  .imaged{
+    opacity: 0.7;
+  }
+
+  .home-inner{
+    opacity: 1;
+  }
+
+  .home-outer{
+    opacity: 0;
+  }
+
   .home-text{
     font-size: 20px;
   }
 
-  .indi-header{
-    font-size: 40px;
-  }
-
-  .indi-header2{
-    font-size: 40px;
-  }
   .indi-video{
     height: 35%;
   }
 
   .indi-subtext{
-    font-size: 15px;
+    font-size: 3vw;
+  }
+
+  .anxiety{
+    margin-top: 50%;
+  }
+
+  .depression{
+    margin-top: 10%;
   }
 
   .subtext1{
-    margin-top: 15%;
+    margin-top: 20%;
   }
 
   .subtext2{
-    margin-top: 45%;
+    margin-top: 50%;
   }
 
   .subtext3{
-    margin-top: 55%;
+    margin-top: 60%;
   }
 
   .subtext4{
-    margin-top: 45%;
+    margin-top: 40%;
   }
 
   .subtext6{
@@ -626,36 +619,32 @@ a:hover{
   }
 
   .home-footer{
-    padding-top: 65%;
+    padding-top: 5%;
   }
 
   .home-footer2{
-    padding-top: 80%;
+    padding-top: 5%;
   }
 
   .about-header{
-    font-size: 25px;
+    font-size: 7vw;
   }
 
   .about-subhead{
-    font-size: 20px;
+    font-size: 5vw;
+  }
+
+  .about-image{
+    min-width: 75%;
   }
 
   .about-footer{
-    font-size: 15px;
-  }
-
-  .about-about{
-    width: 80px;
-    border-top: 3px solid;
-  }
-
-  .about-work{
-    width: 80px;
+    font-size: 4vw;
   }
 
   .about-bold{
-    font-size: 15px;
+    font-size: 4vw;
+    font-weight: bold;
   }
 
 }
