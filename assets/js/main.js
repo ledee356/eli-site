@@ -1,7 +1,8 @@
-var button = document.querySelector('.lower')
-button.addEventListener('click', function(){
-  window.scroll(0, 650)
-})
+// var button = document.querySelector('.lower')
+// button.addEventListener('click', function(){
+//   window.scroll(0, 880)
+// })
+//
 
 var video = document.querySelector('.mania')
 video.addEventListener('play', function() {
@@ -14,6 +15,8 @@ video.addEventListener('pause', function() {
   video.classList.remove('is-active')
 })
 
+
+
 var video1 = document.querySelector('.anxiety')
 video1.addEventListener('play', function() {
   video1.play()
@@ -24,6 +27,7 @@ video1.addEventListener('pause', function() {
   video1.pause()
   video1.classList.remove('is-active')
 })
+
 
 var video2 = document.querySelector('.depression')
 video2.addEventListener('play', function() {

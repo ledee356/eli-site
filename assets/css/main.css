@@ -391,10 +391,9 @@ i{
   line-height: 120%;
   color: #383838;
   z-index: 2;
-
   margin-top: %;
-  margin-left: 7%;
-  margin-right: 7%;
+  margin-left: 8%;
+  margin-right: 8%;
 }
 
 .about-image{
@@ -512,27 +511,27 @@ i{
 }
 
 .subtext1{
-    margin-top: 27%;
+    margin-top: 23%;
 }
 
 .subtext2{
-  margin-top: 35%;
+  margin-top: 31%;
 }
 
 .subtext3{
-  margin-top: 43%;
+  margin-top: 39%;
 }
 
 .subtext4{
-  margin-top: 35%;
+  margin-top: 31%;
 }
 
 .subtext5{
-  margin-top: 43%;
+  margin-top: 39%;
 }
 
 .subtext6{
-  margin-top: 43%;
+  margin-top: 39%;
 }
 
 .indi-video{
@@ -541,8 +540,8 @@ i{
   position: absolute;
   top: 0%;
   justify-content: center;
-  margin-left: 8%;
-  margin-right: 8%;
+  margin-left: 11%;
+  margin-right: 11%;
   margin-top: 5%;
   height: auto;
 }
@@ -556,7 +555,7 @@ i{
 }
 
 .anxiety{
-  margin-top: 15%;
+  margin-top: 16%;
   z-index: 1;
 }
 
@@ -583,10 +582,10 @@ i{
   right: 0%;
   z-index: 1;
   justify-content: center;
-  margin-left: 8%;
-  margin-right: 8%;
+  margin-left: 11%;
+  margin-right: 11%;
   margin-top: 5%;
-  margin-bottom: 9%;
+  margin-bottom: 7%;
 }
 
 .home-footer{
