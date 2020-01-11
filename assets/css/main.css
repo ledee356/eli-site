@@ -178,7 +178,6 @@ a:hover{
 }
 
 .home3{
-  color: #F5F4F4;
   align-items: center;
   display: flex;
   justify-content: center;
@@ -197,19 +196,79 @@ a:hover{
 }
 
 .home-header{
+  color: #F5F4F4;
   font-family: 'Agrandir Variable';
   font-size: 7.5vw;
   font-variation-settings: "wght" 700, "wdth" 200;
   text-decoration: underline;
   text-align: center;
+  transition: all 250ms ease-in-out;
+}
+
+.home-header:hover{
+  color: transparent;
+  -webkit-text-stroke: 1px #F9F8F8;
+  text-decoration: none;
 }
 
 .home-subhead2{
+  color: #F5F4F4;
   font-family: 'Raleway';
   font-size: 3vw;
   font-weight: lighter;
   text-align: right;
   padding-bottom: 32%;
+}
+
+.lower{
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  color: #F5F4F4;
+  transition: all 250ms ease-in-out;
+}
+
+.lower2:hover{
+  color: #383838;
+}
+
+.lower2{
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  color: #F5F4F4;
+  transition: all 250ms ease-in-out;
+}
+
+.lower:hover{
+  color: #383838;
+}
+
+.mouse{
+  width: 5vw;
+  height: 5vw;
+  border: 0.1vw solid;
+  border-radius: 5vw;
+}
+
+i{
+  border: 0.1vw solid;
+  border-width: 0 0.1vw 0.1vw 0;
+  display: inline-block;
+  padding: 0.5vw;
+  position: relative;
+  margin-left: 37.5%;
+  margin-top: 36%;
+  transition: all 250ms ease-in-out;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
 }
 
 .home-footer1{
@@ -229,7 +288,7 @@ a:hover{
 }
 
 .home-outer:hover .imaged{
-  opacity: 0.7;
+  opacity: 0.5;
   transform: scale(1.04, 1.04);
 }
 .imaged{
@@ -316,6 +375,7 @@ a:hover{
   font-family: 'Agrandir Variable';
   font-size: 4.7vw;
   font-variation-settings: "wght" 600, "wdth" 200;
+  line-height: 110%;
   color: #383838;
   z-index: 2;
   padding: 1%;
@@ -328,12 +388,13 @@ a:hover{
   font-family: 'Agrandir Variable';
   font-size: 3vw;
   font-variation-settings: "wght" 400, "wdth" 100;
+  line-height: 120%;
   color: #383838;
   z-index: 2;
-  padding: 1%;
-  margin-top: 3%;
-  margin-left: 5%;
-  margin-right: 5%;
+
+  margin-top: %;
+  margin-left: 7%;
+  margin-right: 7%;
 }
 
 .about-image{
@@ -353,9 +414,10 @@ a:hover{
 .about-footer{
   font-family: 'Raleway';
   font-size: 2vw;
+  line-height: 110%;
   color: #383838;
   padding: 1%;
-  margin-top: 3%;
+  margin-top: 2%;
   margin-left: 5%;
   margin-right: 5%;
   margin-bottom: 4%;
@@ -444,33 +506,33 @@ a:hover{
   line-height: 130%;
   margin-left: 10%;
   margin-right: 10%;
-  margin-bottom: 5%;
+  margin-bottom: 2%;
   position: relative;
   z-index: 2;
 }
 
 .subtext1{
-    margin-top: 29%;
+    margin-top: 27%;
 }
 
 .subtext2{
-  margin-top: 38%;
+  margin-top: 35%;
 }
 
 .subtext3{
-  margin-top: 45%;
+  margin-top: 43%;
 }
 
 .subtext4{
-  margin-top: 38%;
+  margin-top: 35%;
 }
 
 .subtext5{
-  margin-top: 46%;
+  margin-top: 43%;
 }
 
 .subtext6{
-  margin-top: 47%;
+  margin-top: 43%;
 }
 
 .indi-video{
@@ -494,7 +556,7 @@ a:hover{
 }
 
 .anxiety{
-  margin-top: 18%;
+  margin-top: 15%;
   z-index: 1;
 }
 

@@ -1,3 +1,8 @@
+var button = document.querySelector('.lower')
+button.addEventListener('click', function(){
+  window.scroll(0, 650)
+})
+
 var video = document.querySelector('.mania')
 video.addEventListener('play', function() {
   video.play()
@@ -8,8 +13,6 @@ video.addEventListener('pause', function() {
   video.pause()
   video.classList.remove('is-active')
 })
-
-
 
 var video1 = document.querySelector('.anxiety')
 video1.addEventListener('play', function() {
