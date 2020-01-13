@@ -1,9 +1,3 @@
-// var button = document.querySelector('.lower')
-// button.addEventListener('click', function(){
-//   window.scroll(0, 880)
-// })
-//
-
 var video = document.querySelector('.mania')
 video.addEventListener('play', function() {
   video.play()
