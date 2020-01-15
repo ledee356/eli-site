@@ -291,6 +291,7 @@ i{
   opacity: 0.5;
   transform: scale(1.04, 1.04);
 }
+
 .imaged{
   display: flex;
   transition: all 400ms ease-in-out;
@@ -621,17 +622,27 @@ i{
     opacity: 1.0;
   }
 
-  .indi-header{
-    font-size: 9vw;
-  }
-
   .home-about{
     width: 80px;
   }
 
   .home-text{
-    font-size: 20px;
+    font-size: 8vw;
   }
+
+  .home-footer{
+    flex-wrap: none;
+  }
+
+  .home-column{
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  .indi-header{
+    font-size: 9vw;
+  }
+
 
   .indi-video{
     height: 35%;
