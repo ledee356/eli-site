@@ -611,102 +611,214 @@ i{
 
 /* FOR MOBILE */
 
-@media (max-width: 414px) {
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) {
 
-  .home-work3{
-    border-top: 3px solid;
-    color: #F9F8F8;
-  }
+    .home-work3{
+      border-top: 3px solid;
+      color: #F9F8F8;
+    }
 
-  .home-inner{
-    opacity: 1.0;
-  }
+    .home-inner{
+      opacity: 1.0;
+    }
 
-  .home-about{
-    width: 80px;
-  }
+    .home-about{
+      width: 80px;
+    }
 
-  .home-text{
-    font-size: 8vw;
-  }
+    .home-text{
+      font-size: 8vw;
+    }
 
-  .home-footer{
-    flex-wrap: none;
-  }
+    .home-footer{
+      flex-wrap: none;
+    }
 
-  .home-column{
-    flex: 100%;
-    max-width: 100%;
-  }
+    .home-column{
+      flex: 100%;
+      max-width: 100%;
+    }
 
-  .indi-header{
-    font-size: 9vw;
-  }
+    .indi-header{
+      font-size: 9vw;
+    }
 
+    .indi-video{
+      height: 35%;
+    }
 
-  .indi-video{
-    height: 35%;
-  }
+    .indi-subtext{
+      font-size: 4vw;
+    }
 
-  .indi-subtext{
-    font-size: 3vw;
-  }
+    .anxiety{
+      margin-top: 95%;
+    }
 
-  .anxiety{
-    margin-top: 50%;
-  }
+    .depression{
+      margin-top: 10%;
+    }
 
-  .depression{
-    margin-top: 10%;
-  }
+    .subtext1{
+      margin-top: 23%;
+    }
 
-  .subtext1{
-    margin-top: 27%;
-  }
+    .subtext2{
+      margin-top: 50%;
+    }
 
-  .subtext2{
-    margin-top: 50%;
-  }
+    .subtext3{
+      margin-top: 60%;
+    }
 
-  .subtext3{
-    margin-top: 60%;
-  }
+    .subtext4{
+      margin-top: 35%;
+    }
 
-  .subtext4{
-    margin-top: 40%;
-  }
+    .subtext5{
+      margin-top: 42%;
+    }
 
-  .subtext6{
-    margin-top: 45%;
-  }
+    .subtext6{
+      margin-top: 45%;
+    }
 
-  .home-footer{
-    padding-top: 5%;
-  }
+    .home-footer{
+      padding-top: 5%;
+    }
 
-  .home-footer2{
-    padding-top: 5%;
-  }
+    .home-footer2{
+      padding-top: 5%;
+    }
 
-  .about-header{
-    font-size: 7vw;
-  }
+    .about-header{
+      font-size: 7vw;
+    }
 
-  .about-subhead{
-    font-size: 5vw;
-  }
+    .about-subhead{
+      font-size: 5vw;
+    }
 
-  .about-image{
-    min-width: 75%;
-  }
+    .about-image{
+      min-width: 75%;
+    }
 
-  .about-footer{
-    font-size: 4vw;
-  }
+    .about-footer{
+      font-size: 4vw;
+    }
 
-  .about-bold{
-    font-size: 4vw;
-    font-weight: bold;
-  }
+    .about-bold{
+      font-size: 4vw;
+      font-weight: bold;
+    }
+
+}
+
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+
+    .home-work3{
+      border-top: 3px solid;
+      color: #F9F8F8;
+    }
+
+    .home-inner{
+      opacity: 1.0;
+    }
+
+    .home-about{
+      width: 80px;
+    }
+
+    .home-text{
+      font-size: 8vw;
+    }
+
+    .home-footer{
+      flex-wrap: none;
+    }
+
+    .home-column{
+      flex: 100%;
+      max-width: 100%;
+    }
+
+    .indi-header{
+      font-size: 9vw;
+    }
+
+    .indi-video{
+      height: 35%;
+    }
+
+    .indi-subtext{
+      font-size: 4vw;
+    }
+
+    .anxiety{
+      margin-top: 95%;
+    }
+
+    .depression{
+      margin-top: 10%;
+    }
+
+    .subtext1{
+      margin-top: 23%;
+    }
+
+    .subtext2{
+      margin-top: 50%;
+    }
+
+    .subtext3{
+      margin-top: 60%;
+    }
+
+    .subtext4{
+      margin-top: 35%;
+    }
+
+    .subtext5{
+      margin-top: 42%;
+    }
+
+    .subtext6{
+      margin-top: 45%;
+    }
+
+    .home-footer{
+      padding-top: 5%;
+    }
+
+    .home-footer2{
+      padding-top: 5%;
+    }
+
+    .about-header{
+      font-size: 7vw;
+    }
+
+    .about-subhead{
+      font-size: 5vw;
+    }
+
+    .about-image{
+      min-width: 75%;
+    }
+
+    .about-footer{
+      font-size: 4vw;
+    }
+
+    .about-bold{
+      font-size: 4vw;
+      font-weight: bold;
+    }
 
 }
