@@ -333,6 +333,24 @@ i{
   display: flex;
 }
 
+.copyright{
+  font-family: 'Charlevoix Pro';
+  font-size: 1.2vw;
+  color: #383838;
+  margin-top: 5%;
+  margin-bottom: 1%;
+  margin-left: 50%;
+}
+
+.copyt{
+  color: #F9F8F8;
+}
+
+.copyt2{
+  color: #F9F8F8;
+  margin-top: 100%;
+}
+
 
 /* ABOUT PAGE */
 
