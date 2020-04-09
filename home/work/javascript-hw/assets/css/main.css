@@ -1,0 +1,262 @@
+* {
+  box-sizing: border-box;
+  vertical-align: top;
+}
+
+body{
+  background: black;
+  padding: 10px;
+  font-family: arial;
+  font-size: 30px;
+}
+
+h1{
+  font-weight: bold;
+  font-size: 150px;
+  text-align: center;
+  color: #2c3f8d;
+  transition: all 500ms ease;
+  transition: all 500ms ease-out;
+  font-family: 'Jockey One', sans-serif;
+}
+
+h1:hover{
+  color: #def5f0;
+  transform: skew(-20deg);
+}
+
+header{
+  text-align: right;
+}
+
+a{
+  text-decoration: none;
+  font-size: 15px;
+  font-family: 'Quicksand', sans-serif;
+  margin-left: 20px;
+  color: #ffe888;
+  transition: all 500ms ease;
+  transition: all 500ms ease-out;
+  font-weight: thin;
+}
+
+a:visited, a:link{
+  color: #ffe888;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #2c3f8d;
+  text-decoration: none;
+  transition: all 500ms ease;
+  transition: all 500ms ease-out;
+}
+
+.wrapper1{
+  display: flex;
+  background-color: #f7efe2;
+  padding: 20px;
+  height: 800px;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+}
+
+.text1{
+  font-size: 20px;
+  font-family: helvetica;
+  display: flex;
+  margin: 0;
+  align-items: flex-start;
+}
+
+h2{
+  font-size: 20px;
+  font-weight: lighter;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 0;
+  color: white;
+  display: flex;
+}
+
+.words{
+  margin-left: 50px;
+  /* align-self: flex-start; */
+}
+
+.comp{
+  background-color: #0d1d5e;
+  color: white;
+  font-size: 30px;
+  padding: 20px;
+  font-family: "futura";
+  font-weight: bold;
+  transition: all 500ms ease;
+  margin: 100px;
+  display: flex;
+  margin-left: 25%;
+  margin-top: 2em;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  max-width: 50%;
+}
+
+.comp:hover{
+  background-color: white;
+  color: #0d1d5e;
+}
+
+select{
+  display: flex;
+}
+
+p{
+  font-size: 20px;
+font-weight: lighter;
+font-family: 'Josefin Sans', sans-serif;
+margin: 5em;
+color: white;
+display: flex;
+}
+
+.compare_wrapper{
+  display: flex;
+  padding: 20px;
+  height: 800px;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+}
+
+.compare_text{
+  font-size: 20px;
+  display: flex;
+  margin: 0;
+  /* align-items: flex-start; */
+
+}
+
+.compare_words{
+  margin-left: 50px;
+  font-weight: normal;
+  /* align-self: flex-start; */
+}
+
+.dropbtn{
+  background-color: #0d1d5e;
+  color: white;
+  font-size: 30px;
+  padding: 20px;
+  font-family: "futura";
+  font-weight: bold;
+  transition: all 500ms ease;
+  margin: 100px;
+  display: flex;
+  margin-top: 10px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 280px;
+}
+
+.dropbtn:hover{
+  background-color: white;
+  color: #0d1d5e;
+}
+
+select{
+  display: flex;
+}
+
+.dropdown-content{
+  display: none;
+  background-color:  #cee3ee;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);;
+  z-index: 1;
+  text-align: center;
+  margin: 0;
+  transition: all 500ms ease;
+  position: absolute;
+  flex-direction: column;
+}
+
+.show.dropdown-content{
+  display: flex;
+}
+
+.link:active, .link:visited{
+  color: white;
+}
+
+.link:hover{
+  color: #0d1d5e;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #000;
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+}
+
+/* Style table headers and table data */
+td {
+  text-align: center;
+  padding: 16px;
+  font-family: 'Quicksand', sans-serif;
+  background-color: black;
+  color: white;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+}
+
+th {
+  text-align: center;
+  padding: 16px;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: black;
+  color: white;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+}
+
+
+.label{
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+th:first-child, td:first-child {
+  text-align: left;
+}
+
+/* Zebra-striped table rows */
+tr:nth-child(even) {
+  background-color: #
+}
+
+.text1{
+  display: flex;
+  flex-flow: row;
+  flex: wrap;
+}
+
+.linked{
+  font-size: 30px;
+  font-family: arial;
+  display: flex;
+  margin-bottom: 40px;
+}
