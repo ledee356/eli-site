@@ -107,7 +107,7 @@ img{
 .credits{
   font-family: 'Cochin';
   font-size: 1vw;
-  color: #951D54;
+  color: #F9F8F8;
   line-height: 2vw;
 }
 
@@ -206,6 +206,14 @@ iframe{
 /* BACK ZINE PAGE */
 .home-zine-back{
   padding-top: 56%;
+}
+
+.zine-main img{
+  width: 65%;
+  z-index: 2;
+  margin-top: 3%;
+  margin-left: 18%;
+  position: absolute;
 }
 
 /* POSTER PAGE */
