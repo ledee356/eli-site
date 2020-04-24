@@ -1,0 +1,222 @@
+* {
+  box-sizing: border-box;
+  vertical-align: top;
+}
+
+/* BROWSER WORK */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html, header{
+  height: 100%
+}
+
+/* FRONT PAGE */
+.home-front{
+
+}
+
+img{
+  width: 100%;
+}
+
+.main-background{
+  z-index: 2;
+  position: absolute;
+}
+
+.main-text{
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding-top: 1em;
+  z-index: 3;
+  position: relative;
+}
+
+.header{
+  font-family: 'Helvetica LT Std';
+  font-size: 11vw;
+  font-weight: 800;
+  color: #951D54;
+  line-height: 17vw;
+  margin: vw;
+  transition: all 250ms ease-in-out;
+}
+
+.header:hover{
+  color: #F9F8F8;
+}
+
+.subhead{
+  font-family: 'Cochin';
+  font-weight: 100;
+  font-size: 3vw;
+  line-height: 3vw;
+  /* margin: 2em; */
+  padding: 0;
+    transition: all 250ms ease-in-out;
+}
+
+.credits{
+  font-family: 'Cochin';
+  font-size: 1vw;
+  color: #951D54;
+  line-height: 2vw;
+}
+
+.main-credits{
+  font-family: 'Helvetica LT Std';
+  font-size: 2vw;
+}
+
+.lower{
+  position: absolute;
+  top: 115%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  color: #951D54;
+  transition: all 250ms ease-in-out;
+}
+
+.lower:hover{
+  color: #F5F4F4;
+}
+
+.mouse{
+  width: 5vw;
+  height: 5vw;
+  border: 0.1vw solid;
+  border-radius: 5vw;
+}
+
+i{
+  border: 0.1vw solid;
+  border-width: 0 0.1vw 0.1vw 0;
+  display: inline-block;
+  padding: 0.5vw;
+  position: relative;
+  margin-top: 36%;
+  transition: all 250ms ease-in-out;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+/* SYNOPSIS PAGE */
+.home-synopsis{
+  padding-top: 11%;
+}
+
+.synopsis-text{
+  text-align: left;
+  font-family: 'Helvetica LT Std';
+  color: #0E37A2;
+  font-size: 3.5vw;
+  padding: 6vw;
+  transition: all 600ms ease-in-out;
+}
+
+.synopsis-text:hover{
+  color: #F5F4F4;
+  font-size: 4vw;
+  padding: 3vw;
+}
+
+/* TRAILER PAGE */
+
+.home-trailer{
+  padding-top: 11%;
+}
+
+.video-trailer{
+  z-index: 2;
+  position: absolute;
+}
+
+video{
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+/* FRONT ZINE PAGE */
+
+.home-zine-front{
+  padding-top: 56%;
+}
+
+iframe{
+  z-index: 2;
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 10%;
+  width: 80%;
+}
+
+/* BACK ZINE PAGE */
+.home-zine-back{
+  padding-top: 56%;
+}
+
+/* POSTER PAGE */
+.home-poster{
+  padding-top: 56%;
+}
+
+.poster-main img{
+  width: 35%;
+  z-index: 2;
+  margin-top: 3%;
+  margin-left: 35%;
+  position: absolute;
+}
