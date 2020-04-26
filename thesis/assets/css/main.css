@@ -60,6 +60,7 @@ html, header{
 
 img{
   width: 100%;
+  filter: brightness(70%) saturate(70%);
 }
 
 .main-background{
@@ -160,22 +161,31 @@ i{
 .synopsis-text{
   text-align: left;
   font-family: 'Helvetica LT Std';
-  color: #0E37A2;
-  font-size: 3.5vw;
+  color: #F5F4F4;
+  font-size: 2.5vw;
+  line-height: 3vw;
   padding: 6vw;
-  transition: all 600ms ease-in-out;
+  transition: all 250ms ease-in-out;
 }
 
-.synopsis-text:hover{
-  color: #F5F4F4;
-  font-size: 4vw;
-  padding: 3vw;
+/* POSTER PAGE */
+.home-poster{
+  padding-top: 1%;
+}
+
+.poster-main img{
+  width: 35%;
+  z-index: 2;
+  margin-top: 2%;
+  margin-left: 35%;
+  position: absolute;
+  filter: brightness(100%) saturate(100%);
 }
 
 /* TRAILER PAGE */
 
 .home-trailer{
-  padding-top: 11%;
+  padding-top: 56.2%;
 }
 
 .video-trailer{
@@ -203,12 +213,7 @@ iframe{
   width: 80%;
 }
 
-/* BACK ZINE PAGE */
-.home-zine-back{
-  padding-top: 56%;
-}
-
-.zine-main img{
+.main-carousel{
   width: 65%;
   z-index: 2;
   margin-top: 3%;
@@ -216,15 +221,26 @@ iframe{
   position: absolute;
 }
 
-/* POSTER PAGE */
-.home-poster{
-  padding-top: 56%;
+.carousel-cell{
+ width: 100%;
+ padding: 1rem;
 }
 
-.poster-main img{
-  width: 35%;
+.carousel-cell img{
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* BACK ZINE PAGE */
+.home-zine-back{
+  padding-top: 3.5%;
+}
+
+.zine-main img{
+  width: 65%;
   z-index: 2;
   margin-top: 3%;
-  margin-left: 35%;
+  margin-left: 18%;
   position: absolute;
 }
