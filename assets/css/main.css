@@ -341,7 +341,7 @@ i{
   color: #383838;
   margin-top: 5%;
   margin-bottom: 1%;
-  margin-left: 50%;
+  margin-left: 45%;
 }
 
 .copyt{
@@ -521,7 +521,7 @@ i{
 }
 
 .indi-header:hover{
-  transform: skew(-20deg);
+  3
 }
 
 .indi-subtext{
@@ -537,7 +537,7 @@ i{
 }
 
 .subtext1{
-    margin-top: 23%;
+  margin-top: 23%;
 }
 
 .subtext2{
@@ -549,15 +549,7 @@ i{
 }
 
 .subtext4{
-  margin-top: 31%;
-}
-
-.subtext5{
-  margin-top: 39%;
-}
-
-.subtext6{
-  margin-top: 39%;
+  margin-top: 38%;
 }
 
 .indi-video{
@@ -571,19 +563,6 @@ i{
   margin-top: 5%;
   height: auto;
   /* width: 100%; */
-}
-
-.vimeo-video{
-  display: flex;
-  flex-wrap: wrap;
-  position: absolute;
-  top: 0%;
-  justify-content: center;
-  margin-left: 11%;
-  margin-right: 11%;
-  margin-top: 5%;
-  height: auto;
-  width: 100em;
 }
 
 .mania{
@@ -647,6 +626,27 @@ i{
   transform: scale(1.04, 1.04);
 }
 
+.vimeo-video{
+  /* position: relative; */
+  padding-top: 0%;
+  /* padding-bottom: 40.25%; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 0;
+}
+
+.vimeo-video iframe{
+  /* left: 0; */
+  top: 0%;
+  height: 90%;
+  width: 80%;
+  position: absolute;
+  /* margin-left: 11%;
+  margin-right: 11%; */
+  /* margin-top: 5%; */
+  top: 0%;
+}
 
 /* FOR MOBILE */
 
