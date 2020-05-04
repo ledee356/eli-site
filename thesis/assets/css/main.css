@@ -95,8 +95,8 @@ img{
 }
 
 .subhead{
-  font-family: 'Cochin';
-  font-weight: 100;
+  font-family: 'PP Woodland';
+  font-weight: 300;
   font-size: 3vw;
   line-height: 3vw;
   color: #F9F8F8;
@@ -107,7 +107,7 @@ img{
 }
 
 .credits{
-  font-family: 'Cochin';
+  font-family: 'PP Woodland';
   font-size: 1vw;
   color: #F9F8F8;
   line-height: 2vw;
@@ -167,14 +167,15 @@ i{
   color: #F5F4F4;
   font-size: 3.5vw;
   line-height: 4vw;
-  padding: 6vw;
-  padding-top: vw;
+  padding-top: 6vw;
+  padding-left: 15vw;
+  padding-right: 15vw;
   transition: all 250ms ease-in-out;
 }
 
 /* POSTER PAGE */
 .home-poster{
-  padding-top: 9.5%;
+  padding-top: 7.6%;
 }
 
 .section-header{
@@ -202,7 +203,7 @@ i{
   z-index: 2;
   margin-left: 35%;
   position: absolute;
-  margin-top: 108%;
+  margin-top: 108.5%;
   top: 0%;
   filter: brightness(100%) saturate(100%);
 }
@@ -235,7 +236,7 @@ video{
 /* FRONT ZINE PAGE */
 
 .home-zine-front{
-  padding-top: 3.5%;
+  padding-top: 1.5%;
 }
 
 .main-carousel{
@@ -278,7 +279,7 @@ a:link, a:visited{
 
 /* BACK ZINE PAGE */
 .home-zine-back{
-  margin-top: 5%;
+  margin-top: 4.5%;
 }
 
 .zine-main img{
