@@ -53,6 +53,26 @@ html, header{
   height: 100%
 }
 
+@font-face {
+  font-family: 'Helvetica LT Std';
+  src: url('../fonts/HelveticaLTStd-Cond.otf'); /* IE9 Compat Modes */
+  src: url('../fonts/HelveticaLTStd-Cond.otf') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/HelveticaLTStd-Cond.otf') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/HelveticaLTStd-Cond.otf') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/HelveticaLTStd-Cond.otf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/HelveticaLTStd-Cond.otf') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'PP Woodland';
+  src: url('../fonts/PPWoodland-Regular.otf'); /* IE9 Compat Modes */
+  src: url('../fonts/PPWoodland-Regular.otf') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/PPWoodland-Regular.otf') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/PPWoodland-Regular.otf') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/PPWoodland-Regular.otf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/PPWoodland-Regular.otf') format('svg'); /* Legacy iOS */
+}
+
 /* FRONT PAGE */
 .home-front{
 
