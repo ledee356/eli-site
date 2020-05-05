@@ -53,6 +53,7 @@ html, header{
   height: 100%
 }
 
+/* FONTS */
 @font-face {
   font-family: 'Helvetica LT Std';
   src: url('../fonts/HelveticaLTStd-Cond.otf'); /* IE9 Compat Modes */
@@ -64,6 +65,16 @@ html, header{
 }
 
 @font-face {
+  font-family: 'Helvetica LT Std Black Condensed';
+  src: url('../fonts/HelveticaLTStd-BlkCond.otf'); /* IE9 Compat Modes */
+  src: url('../fonts/HelveticaLTStd-BlkCond.otf') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/HelveticaLTStd-BlkCond.otf') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/HelveticaLTStd-BlkCond.otf') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/HelveticaLTStd-BlkCond.otf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/HelveticaLTStd-BlkCond.otf') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
   font-family: 'PP Woodland';
   src: url('../fonts/PPWoodland-Regular.otf'); /* IE9 Compat Modes */
   src: url('../fonts/PPWoodland-Regular.otf') format('embedded-opentype'), /* IE6-IE8 */
@@ -72,6 +83,18 @@ html, header{
        url('../fonts/PPWoodland-Regular.otf')  format('truetype'), /* Safari, Android, iOS */
        url('../fonts/PPWoodland-Regular.otf') format('svg'); /* Legacy iOS */
 }
+
+@font-face {
+  font-family: 'PP Woodland Ultralight';
+  src: url('../fonts/PPWoodland-Ultralight.otf'); /* IE9 Compat Modes */
+  src: url('../fonts/PPWoodland-Ultralight.otf') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/PPWoodland-Ultralight.otf') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/PPWoodland-Ultralight.otf') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/PPWoodland-Ultralight.otf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/PPWoodland-Ultralight.otf') format('svg'); /* Legacy iOS */
+}
+
+
 
 /* FRONT PAGE */
 .home-front{
@@ -102,7 +125,7 @@ img{
 }
 
 .header{
-  font-family: 'Helvetica LT Std';
+  font-family: 'Helvetica LT Std Black Condensed';
   font-size: 11vw;
   font-weight: 800;
   color: #951D54;
@@ -127,22 +150,21 @@ img{
 }
 
 .credits{
-  font-family: 'PP Woodland';
+  font-family: 'Helvetica LT Std';
   font-size: 1vw;
   color: #F9F8F8;
-  line-height: 2vw;
-  padding: 0;
+  line-height: 2.5vw;
   margin: 0;
 }
 
 .main-credits{
-  font-family: 'Helvetica LT Std';
-  font-size: 2vw;
+  font-family: 'PP Woodland Ultralight';
+  font-size: 4vw;
 }
 
 .lower{
   position: absolute;
-  top: 110%;
+  top: 108%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 3;
@@ -178,7 +200,7 @@ i{
 
 /* SYNOPSIS PAGE */
 .home-synopsis{
-  padding-top: 9%;
+  padding-top: 7.5%;
 }
 
 .synopsis-text{
@@ -199,7 +221,7 @@ i{
 }
 
 .section-header{
-  font-family: 'Helvetica LT Std';
+  font-family: 'Helvetica LT Std Black Condensed';
   font-size: 6vw;
   font-weight: 800;
   color: #F9F8F8;
@@ -478,3 +500,18 @@ a:link, a:visited{
 .dot.is-selected{
   opacity: 1;
 }
+
+/* MOBILE */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+
+    .lower{
+      display: none;
+    }
+
+
+
+
+  }
