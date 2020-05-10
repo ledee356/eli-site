@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <link href="assets/css/main.css" media="all" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Advent+Pro|Jockey+One|Josefin+Sans|Paytone+One|Quicksand|Reem+Kufi|Ultra" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Integration</title>
+  </head>
+
+  <body>
+
+    <main>
+      <h1>Comparisons</h1>
+      <div class="compare_wrapper">
+        <div class="compare_text">
+          <h2>Comparisons: Pick 2 Years</h2>
+          <p class="compare_words">Pick two years from the dropdown menus and you'll get a random movie chosen from each of the years selected and be given an explanation of how they compare.</p>
+        </div>
+
+          <div class="btn">
+              <select class="dropbtn one">
+                  <option class="years">Choose a Year</option>
+                  <option class="years" data-id="tt0054215">1960</option>
+                  <option class="years" data-id="tt0054698">1961</option>
+                  <option class="years" data-id="tt0056172">1962</option>
+                  <option class="years" data-id="tt0057115">1963</option>
+                  <option class="years" data-id="tt0057012">1964</option>
+                  <option class="years" data-id="tt0059742">1965</option>
+                  <option class="years" data-id="tt0060196">1966</option>
+                  <option class="years" data-id="tt0061722">1967</option>
+                  <option class="years" data-id="tt0062622">1968</option>
+                  <option class="years" data-id="tt0064115">1969</option>
+                  <option class="years" data-id="tt0066206">1970<option>
+                  <option class="years" data-id="tt0066921">1971</option>
+                  <option class="years" data-id="tt0068646">1972</option>
+                  <option class="years" data-id="tt0070047">1973</option>
+                  <option class="years" data-id="tt0071562">1974</option>
+                  <option class="years" data-id="tt0075314">1975</option>
+                  <option class="years" data-id="tt0075314">1976</option>
+                  <option class="years" data-id="tt0076759">1977</option>
+                  <option class="years" data-id="tt0077416">1978</option>
+                  <option class="years" data-id="tt0078788">1979</option>
+                  <option class="years" data-id="tt0081398">1980</option>
+                  <option class="years" data-id="tt0082971">1981</option>
+                  <option class="years" data-id="tt0083658">1982</option>
+                  <option class="years" data-id="tt0086190">1983</option>
+                  <option class="years" data-id="tt0088247">1984</option>
+                  <option class="years" data-id="tt0088763">1985</option>
+                  <option class="years" data-id="tt0090605">1986</option>
+                  <option class="years" data-id="tt0093058">1987</option>
+                  <option class="years" data-id="tt0095953">1988</option>
+                  <option class="years" data-id="tt0097165">1989</option>
+                  <option class="years" data-id="tt0099685">1990</option>
+                  <option class="years" data-id="tt0102926">1991</option>
+                  <option class="years" data-id="tt0105236">1992</option>
+                  <option class="years" data-id="tt0108052">1993</option>
+                  <option class="years" data-id="tt0111161">1994</option>
+                  <option class="years" data-id="tt0114369">1995</option>
+                  <option class="years" data-id="tt0116282">1996</option>
+                  <option class="years" data-id="tt0120338">1997</option>
+                  <option class="years" data-id="tt0120815">1998</option>
+                  <option class="years" data-id="tt0169547">1999</option>
+                  <option class="years" data-id="tt0190332">2000</option>
+                  <option class="years" data-id="tt0120737">2001</option>
+                  <option class="years" data-id="tt0245429">2002</option>
+                  <option class="years" data-id="tt0167260">2003</option>
+                  <option class="years" data-id="tt0350258">2004</option>
+                  <option class="years" data-id="tt0388795">2005</option>
+                  <option class="years" data-id="tt0407887">2006</option>
+                  <option class="years" data-id="tt0469494">2007</option>
+                  <option class="years" data-id="tt1010048">2008</option>
+                  <option class="years" data-id="tt0887912">2009</option>
+                  <option class="years" data-id="tt1285016">2010</option>
+                  <option class="years" data-id="tt1210166">2011</option>
+                  <option class="years" data-id="tt1045658">2012</option>
+                  <option class="years" data-id="tt2024544">2013</option>
+                  <option class="years" data-id="tt2562232">2014</option>
+                  <option class="years" data-id="tt1596363">2015</option>
+                  <option class="years" data-id="tt4975722">2016</option>
+                  <option class="years" data-id="tt5649144">2017</option>
+                  <option class="years" data-id="tt6155172">2018</option>
+                  <option class="years" data-id="tt6751668">2019</option>
+                </select>
+
+
+            <select class="dropbtn two">
+                <option class="years">Choose a Year</option>
+                  <option class="years" data-id="tt0054215">1960</option>
+                  <option class="years" data-id="tt0054698">1961</option>
+                  <option class="years" data-id="tt0056172">1962</option>
+                  <option class="years" data-id="tt0057115">1963</option>
+                  <option class="years" data-id="tt0057012">1964</option>
+                  <option class="years" data-id="tt0059742">1965</option>
+                  <option class="years" data-id="tt0060196">1966</option>
+                  <option class="years" data-id="tt0061722">1967</option>
+                  <option class="years" data-id="tt0062622">1968</option>
+                  <option class="years" data-id="tt0064115">1969</option>
+                  <option class="years" data-id="tt0066206">1970</option>
+                  <option class="years" data-id="tt0066921">1971</option>
+                  <option class="years" data-id="tt0068646">1972</option>
+                  <option class="years" data-id="tt0070047">1973</option>
+                  <option class="years" data-id="tt0071562">1974</option>
+                  <option class="years" data-id="tt0075314">1975</option>
+                  <option class="years" data-id="tt0075314">1976</option>
+                  <option class="years" data-id="tt0076759">1977</option>
+                  <option class="years" data-id="tt0077416">1978</option>
+                  <option class="years" data-id="tt0078788">1979</option>
+                  <option class="years" data-id="tt0081398">1980</option>
+                  <option class="years" data-id="tt0082971">1981</option>
+                  <option class="years" data-id="tt0083658">1982</option>
+                  <option class="years" data-id="tt0086190">1983</option>
+                  <option class="years" data-id="tt0088247">1984</option>
+                  <option class="years" data-id="tt0088763">1985</option>
+                  <option class="years" data-id="tt0090605">1986</option>
+                  <option class="years" data-id="tt0093058">1987</option>
+                  <option class="years" data-id="tt0095953">1988</option>
+                  <option class="years" data-id="tt0097165">1989</option>
+                  <option class="years" data-id="tt0099685">1990</option>
+                  <option class="years" data-id="tt0102926">1991</option>
+                  <option class="years" data-id="tt0105236">1992</option>
+                  <option class="years" data-id="tt0108052">1993</option>
+                  <option class="years" data-id="tt0111161">1994</option>
+                  <option class="years" data-id="tt0114369">1995</option>
+                  <option class="years" data-id="tt0116282">1996</option>
+                  <option class="years" data-id="tt0120338">1997</option>
+                  <option class="years" data-id="tt0120815">1998</option>
+                  <option class="years" data-id="tt0169547">1999</option>
+                  <option class="years" data-id="tt0190332">2000</option>
+                  <option class="years" data-id="tt0120737">2001</option>
+                  <option class="years" data-id="tt0245429">2002</option>
+                  <option class="years" data-id="tt0167260">2003</option>
+                  <option class="years" data-id="tt0350258">2004</option>
+                  <option class="years" data-id="tt0388795">2005</option>
+                  <option class="years" data-id="tt0407887">2006</option>
+                  <option class="years" data-id="tt0469494">2007</option>
+                  <option class="years" data-id="tt1010048">2008</option>
+                  <option class="years" data-id="tt0887912">2009</option>
+                  <option class="years" data-id="tt1285016">2010</option>
+                  <option class="years" data-id="tt1210166">2011</option>
+                  <option class="years" data-id="tt1045658">2012</option>
+                  <option class="years" data-id="tt2024544">2013</option>
+                  <option class="years" data-id="tt2562232">2014</option>
+                  <option class="years" data-id="tt1596363">2015</option>
+                  <option class="years" data-id="tt4975722">2016</option>
+                  <option class="years" data-id="tt5649144">2017</option>
+                  <option class="years" data-id="tt6155172">2018</option>
+                  <option class="years" data-id="tt6751668">2019</option>
+              </select>
+
+                <a class="comp link" href="">Compare</a>
+            </div>
+
+        </div>
+
+
+
+      <script src="assets/js/main.js"></script>
+    </main>
+
+    <footer>
+    </footer>
+
+  </body>
+</html>
