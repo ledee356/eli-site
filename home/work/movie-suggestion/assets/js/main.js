@@ -1,6 +1,6 @@
 let movies = [];
 
-const datafile = "./data.json";
+const datafile = "data.json";
 
 $(function() {
 
