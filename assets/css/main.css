@@ -657,12 +657,13 @@ i{
   and (-webkit-min-device-pixel-ratio: 3) {
 
     .home-work3{
-      border-top: 3px solid;
+      border-top: 2px solid;
       color: #F9F8F8;
     }
 
     .home-inner{
       opacity: 1.0;
+
     }
 
     .home-about{
@@ -707,11 +708,11 @@ i{
     }
 
     .subtext2{
-      margin-top: 50%;
+      margin-top: 40%;
     }
 
     .subtext3{
-      margin-top: 60%;
+      margin-top: 50%;
     }
 
     .subtext4{
