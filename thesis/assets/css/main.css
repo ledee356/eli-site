@@ -289,22 +289,6 @@ a:link, a:visited{
   position: absolute;
 }
 
-.copyright{
-  font-family: 'Helvetica LT Std';
-  color: black;
-  /* color: #F9F8F8; */
-  font-size: 1.8vw;
-  font-weight: 600;
-  top: 0%;
-  margin-top: 388%;
-  margin-bottom: 1%;
-  margin-left: 43.5%;
-  z-index: 4;
-  position: absolute;
-}
-
-
-
 /* FLICKITY */
 .flickity-enabled{
   position: relative;
@@ -419,7 +403,7 @@ a:link, a:visited{
   top: 30%;
   width: 40%;
   height: 40%;
-
+  
 }
 
 .flickity-page-dots{
